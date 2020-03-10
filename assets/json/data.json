@@ -1,0 +1,140 @@
+{"data":
+  {"about":{
+    "photo":"assets/about/joao.jpg",
+    "bio":"João da Fonseca is Berlin based media artist and creative developer. With a multidisciplinary background in science, design and art combined with a urge of experimentation he explores new concepts and creative directions through creative coding, prototyping and visual programming.<p>By having a generalist technical skillset, João is able to participate in a variety of projects in different stages of the creative process, from conception to execution.",
+    "tools":"Unity3D, vvvv, DirectX, OpenGl, C++, c#, openFrameworks, Processing, Arduino, Javascript, Adobe suite",
+    "contacts":["email.,hi@joaofonseca.cc","phone.,+49(0) 152 244 17 464" ],
+    "social":["messenger / ,www.messenger.com/t/jftfonseca!","instagram,www.instagram.com/_joao_da_fonseca_/"],
+    "experience":["freelancer.,creative developer. 2017,www.joaofonseca.cc. ","alt ctrl.,co-founder. 2017,www.alt-ctrl.com","onformative.,creative developer. 2015-2017,www.onformative.com","addac systems.,interaction designer. 2013-2015,www.addacsystem.com"],
+    "education":["Restart., Art and New Media","Polytechnic Institute of Coimbra., B.A. Media design"]
+  },
+
+  "work":{
+    "AnimaIki":{
+      "key":"AnimaIki",
+      "active":"true",
+      "title":"Anima Iki",
+      "category":"Interactive Installation",
+      "year":"2014",
+      "cover":"../assets/work/animaIki/anima_iki_03.jpg",
+      "images":["../assets/work/animaIki/anima_iki_01.jpg","../assets/work/animaIki/anima_iki_02.jpg", "../assets/work/animaIki/anima_iki_05.jpg", "../assets/work/animaIki/anima_iki_06.jpg", "../assets/work/animaIki/anima_iki_07.jpg", "../assets/work/animaIki/anima_iki_09.jpg"],
+      "mainVideo":"https://player.vimeo.com/video/234859277?title=0&byline=0&portrait=0",
+      "secondaryVideos":[],
+      "text":"A digital sculpture of sound and light that explores the relationship between itself and its surroundings. Anima consists of a giant sphere, a 360º interactive installation that invites the audience to investigate and be immersed in a surreal dialogue.<p>Fluid patterns flow around its surface while deep tones oscillate in the room. The installation keeps redefining its visual complexity and behaviour by shifting shapes and colours while reacting to human presence in the space",
+      "tools":["openFrameworks", "openGL"],
+      "credits": ["Collaboration with.,Nick Verstand and Frouke ten Velden", "Creative Direction.,onformative","Design.,João da Fonseca and Mick van Olst", "Creative Development.,João da Fonseca", "Sound Design.,Geert Schaap", "Hardware Provider.,Pufferfish"],
+      "madeAtOnf":"true",
+      "awards":["Lumen Prize.,Shortlist 2016", "FWA of the Day.,2016"],
+      "exhibitions":["Ars Electronica Animation Festival., Linz 2017","Design Society., Shenzhen 2017","Leeds International Festival., Leeds 2017","SXSW., Austin 2016","Van Gogh Museum., Amsterdam 2015","TEDx., Delft 2014","LEHRTER SIEBZEHN., Berlin 2014","Kantor Art & Technology Festival., Amsterdam 2014","ADE Playground., Amsterdam 2014"]
+    },
+
+    "IbmFlux":{
+      "key":"IbmFlux",
+      "active":"true",
+      "title":"IBM Flux",
+      "category":"Interactive Installation",
+      "year":"2016",
+      "cover":"../assets/work/ibmFlux/ibm_flux_header.jpg",
+      "images":["../assets/work/ibmFlux/ibm_flux01.jpg","../assets/work/ibmFlux/ibm_flux02.jpg", "../assets/work/ibmFlux/ibm_flux03.jpg","../assets/work/ibmFlux/ibm_flux04.jpg","../assets/work/ibmFlux/ibm_flux05.jpg","../assets/work/ibmFlux/ibm_flux08.jpg", "../assets/work/ibmFlux/ibm_flux10.jpg"],
+      "mainVideo":"https://player.vimeo.com/video/346954439?title=0&byline=0&portrait=0",
+      "secondaryVideos":["https://player.vimeo.com/video/346957008?autoplay=1&background=1&loop=1&title=0&byline=0&portrait=0"],
+      "text":"»FLUX« is a data-driven art installation visualizing the different facets of the Internet of Things and cognitive technologies. Through four unique visual modes, the sculpture cycles through mesmerizing imagery created through streams of living data. Intelligently engaging with its viewers, the piece is a focal point of the IBM Watson Headquarters, Germany.",
+      "tools":["vvvv","DirectX11"],
+      "credits": ["Production.,Julia Laub","Creative Direction.,Cedric Kiefer", "Art Direction.,Moco Ziegler", "Technical Direction & Code.,Moco Ziegler", "Code.,João Fonseca | Aristides Garcia | Max Mittermeier", "Commissioned by.,VOK DAMS", "Architecture & Interior.,Universal Design Studio / MAP Project Office", "Technical Setup.,Archimedes Exhibitions"],
+      "madeAtOnf":"true",
+      "awards":[],
+      "exhibitions":[]
+    },
+
+    "TrueFalse":{
+      "key":"TrueFalse",
+      "active":"true",
+      "title":"True False",
+      "category":"Kinetic Installation",
+      "year":"2017",
+      "cover":"../assets/work/trueFalse/truefalse_01.jpg",
+      "images":["../assets/work/trueFalse/truefalse06.jpg", "../assets/work/trueFalse/truefalse05.jpg", "../assets/work/trueFalse/truefalse_closeup_02.jpg"],
+      "mainVideo":"https://player.vimeo.com/video/234863102?title=0&byline=0&portrait=0",
+      "secondaryVideos":["https://player.vimeo.com/video/249376791?autoplay=1&background=1&loop=1&title=0&byline=0&portrait=0"],
+      "text":"An art piece which poses the question between purpose and process. Constructing patterns and images though a laborious and methodic process, it portrays perpetual motion. Choreographed and intelligently steered through its algorithm, it carefully places each individual element in its right place.<p>The piece has to be seen in motion in order to understand its mechanics. Behind a minimalistic appearance it encases a very elaborate and complex collection of circuitry and logics.",
+      "tools":[],
+      "credits": ["creative Direction.,onformative", "technical direction & hardware.,Mick van Olst","production.,Monique Mathieu and Aurélien Krieger", "code & content.,João da Fonseca and Henryk Wollik", "mechanics.,Jan Bernstein"],
+      "madeAtOnf":"true",
+      "awards":["Lumen Prize.,Shortlist 2017"],
+      "exhibitions":["Mirage Festival.,Lyon 2018","Freunde von Freunden Friends Space.,Berlin 2017","NODE17.,Frankfurt 2017"]
+    },
+
+    "Collisions":{
+      "key":"Collisions",
+      "active":"true",
+      "title":"50.000 Collisions",
+      "category":"Physics simulation",
+      "year":"2016",
+      "cover":"../assets/work/clashPhysics/cp_cover.png",
+      "images":["../assets/work/clashPhysics/cp_01.png","../assets/work/clashPhysics/cp_02.png"],
+      "mainVideo":"https://player.vimeo.com/video/259363263?title=0&byline=0&portrait=0",
+      "secondaryVideos":[],
+      "text":"Custom GPU Physics simulation done with vvvv. A small experiment made as part of a bigger project where 50.000 particles collide with each other.",
+      "tools":["vvvv", "DirectX11"],
+      "credits": [],
+      "madeAtOnf":"false",
+      "awards":[],
+      "exhibitions":[]
+    },
+
+    "Zephyr":{
+      "key":"Zephyr",
+      "active":"false",
+      "title":"Zephyr",
+      "category":"Procedural Sculpture",
+      "year":"2016",
+      "cover":"../assets/work/zephyr/zephyr_01.jpg",
+      "images":["../assets/work/zephyr/zephyr_02.jpg","../assets/work/zephyr/zephyr_03.jpg"],
+      "mainVideo":"https://player.vimeo.com/video/234494459?title=0&byline=0&portrait=0",
+      "secondaryVideos":["https://player.vimeo.com/video/249381020?autoplay=1&background=1&loop=1&title=0&byline=0&portrait=0","https://player.vimeo.com/video/249381052?autoplay=1&background=1&loop=1&title=0&byline=0&portrait=0"],
+      "text":"Together with George Singer we designed a generative sculpture for the Fairmont Hotel. The immense structure is almost 60 metres long and consists of 19.879 metallic disks. The shape of the chandelier represents the beauty and energy of the waves in neighbouring St. Andrews Bay, and are formulated using wave simulations.<p>The piece was constructed by hand over a 3 month period. By creating a custom piece of software, we were able to organise all the elements of the sculpture into instructions suitable for manual assembly.",
+      "tools":["Processing", "Cinema 4D"],
+      "credits": ["collaboration with.,George Singer", "client.,Fairmont St Andrews","3d simulation.,Matthias Sozel", "design and development.,João da Fonseca and Mick van Olst"],
+      "madeAtOnf":"true",
+      "awards":[],
+      "exhibitions":[]
+    },
+    "ContemporaryPendualrPiano":{
+      "key":"ContemporaryPendularPiano",
+      "active":"true",
+      "title":"Contemporary Pendular Piano",
+      "category":"Generative Audio Sequencer",
+      "year":"2015",
+      "cover":"../assets/work/contemporaryPendualrPiano/cpp_cover.png",
+      "images":["../assets/work/contemporaryPendualrPiano/cpp_01.png","../assets/work/contemporaryPendualrPiano/cpp_02.png","../assets/work/contemporaryPendualrPiano/cpp_03.png"],
+      "mainVideo":"https://player.vimeo.com/video/75738223?title=0&byline=0&portrait=0",
+      "secondaryVideos":[],
+      "text":"The Contemporary Pendular Piano, is a note sequencer based on the triple pendular motion. The angle between each mass and it own origin is used to control the note triggers.<p>Every time there is a collision between two masses, a note is triggered. The note pitch is influenced by the angle where the collision occurs, the attack of the note is influenced by the velocity of the two triggers at the moment of the collision.",
+      "tools":["processing", "ableton live"],
+      "credits": ["Creative Development.,João da Fonseca"],
+      "madeAtOnf":"false",
+      "awards":[],
+      "exhibitions":[]
+    },
+
+    "TheBowCorpse":{
+      "key":"TheBowCorpse",
+      "active":"false",
+      "title":"The Bow Corpse",
+      "category":"Music Performance",
+      "year":"2015",
+      "cover":"../assets/work/theBowCorpse/tbc_cover.jpg",
+      "images":["../assets/work/theBowCorpse/tbc_01.jpg","../assets/work/theBowCorpse/tbc_02.jpg","../assets/work/theBowCorpse/tbc_03.jpg"],
+      "mainVideo":"https://player.vimeo.com/video/261156334",
+      "secondaryVideos":[],
+      "text":"The Bow Corpse is a commissioned concert work for 12 musicians and real-time digital clones. The project was done in collaboration with composer Gisle Martens Meyer and was commissioned by Norwegian contemporary music ensemble BIT20, and premiered at Nattjazz 2015.<p>Each musician in the ensemble has their own swarm of digital clones. These clones are built from thousands of tiny micro-sounds coming from their own instruments. The clones operate in real-time swarms, performing together with the musicians.",
+      "tools":["openFrameworks", "openGL"],
+      "credits": ["comissioned.,ADE", "client.,onformative","visual Development.,João Fonseca", "sound Design.,João Fonseca"],
+      "madeAtOnf":"false",
+      "awards":[],
+      "exhibitions":[]
+    }
+
+  }
+}
+}

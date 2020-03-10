@@ -1,0 +1,411 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
+
+
+html {
+    overflow-y:scroll;
+}
+
+
+body{
+overflow-y:scroll;
+  background-color: #F5F5F5;
+}
+
+img{
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
+
+}
+
+.container{
+  float:left;
+  margin: 2.59vh 30px 0vh 30px;
+  width: calc(100vw - 60px);
+  height: auto;
+  background-color: #F5F5F5;
+}
+
+.top-space{
+  float:left;
+  width: 100%;
+  height:12.4vh;
+}
+
+.middle-container{
+  float:left;
+  width:100%;
+  //height: 500px;
+  height: auto;
+  //background-color:#F5F5F5;//#F5F5F5;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.middle-box{
+  display: inline-block;
+  float:right;
+  width: 75%;
+
+  //max-width: 1400px;
+  height: 82vh;
+  margin-bottom: 3vh;
+  background-color: none;
+  overflow: hidden;
+  margin-left: 25%;
+  z-index: 10;
+}
+
+.canvas{
+  position: relative;
+  float:right;
+
+  width: 100%;
+
+  height: 46.3vw;
+  bottom: 0;
+
+  top: calc( ((100% - 46.3vw) / 2 ) + ( 50% - (46.3vw / 2) ) );
+
+
+
+  overflow: hidden;
+  z-index: 1;
+
+  border: 20px red;
+
+}
+
+
+.text-box-mobile{
+  display: none;
+  width: 100%;
+
+}
+
+.text-box-mobile h1{
+
+
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  top:0;
+  color: #2D2D2D;
+  width: auto;
+  text-decoration:none;
+
+  height: auto;
+  margin-right: 30px;
+}
+.text-box-mobile a {
+  color: #2D2D2D;
+  text-decoration: none;
+
+}
+
+.text-box-mobile h1:hover{
+  text-decoration: none;
+  color: #8D8D8D;
+}
+
+.text-box-mobile h2{
+
+  margin-right: 35px;
+  width: auto;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 0px;
+  color: #2D2D2D;
+  height: auto;
+}
+
+.text-box{
+
+  position: fixed;
+
+  bottom: 3.1vh;
+  width: calc(25% - 0.6vw);
+  //  background-color: red;
+  //margin-top: 15.0vh;
+  height: 46.3vw;
+  max-height: calc(100vh - 300px);
+  //background-color: red;
+  /* position: fixed;
+  //top: calc( ((100% - 46.3vw) / 2 ) + ( 50% - (46.3vw / 2) ) - 3vh);
+  bottom: 0px;
+  height: 46.3vw;
+  margin-top: 0;
+  max-height: 82vh;
+  float: left;
+  text-align: center;
+
+
+  //height: calc(100vh - 2.59vh - 12.4vh - 2.59vh);
+  background-color: red;
+
+  text-align: left;
+  font-size: 15px; */
+
+
+}
+
+.text-box h1{
+
+  margin-top: 60%;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  top:0;
+  color: #2D2D2D;
+  width: auto;
+  text-decoration:none;
+
+  height: auto;
+  margin-right: 30px;
+
+}
+.text-box a {
+  color: #2D2D2D;
+  text-decoration: none;
+
+}
+
+.text-box h1:hover{
+  text-decoration: none;
+  color: #8D8D8D;
+}
+
+.text-box h2{
+
+  margin-right: 35px;
+  width: auto;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 0px;
+  color: #2D2D2D;
+  height: auto;
+
+
+}
+
+.text-box h6{
+
+
+  width: auto;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 100;
+  font-size: 70px;
+  margin-top: 0px;
+  color: #2D2D2D;
+  height: 20px;
+  //background-color: red;
+  margin-top: -35px;
+  margin-left: -4px;
+  padding: 0;
+}
+
+.sp {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-top: 12px;
+  float:left;
+  width: 40px;
+  height: 2px;
+  background-color: #2D2D2D;
+
+}
+
+
+.mobile-footer{
+
+  display: none;
+
+}
+
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:0.5s;
+  -moz-animation-duration:0.5s;
+  animation-duration:0.5s;
+}
+
+
+@media screen and (min-width: 1900px) {
+
+  .canvas{
+    //top: 0;
+
+  }
+  .text-box{
+    //  top:0;
+
+  }
+
+}
+
+
+@media (max-width: 768px) and (max-width: 1024px) {
+
+body {
+
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+
+  margin: auto;
+  align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+  .top-space{
+    height:0px;
+  }
+
+  .text-box{
+    display: none;
+
+  }
+  .text-box-mobile{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin: 0;
+    //margin-top: 90px;
+  }
+
+  .text-box-mobile h1{
+    margin-right:0;
+    font-size: 22px;
+  }
+
+
+  .text-box-mobile h2{
+    margin-right:0;
+    font-size: 16px;
+  }
+
+  .text-box-mobile h6{
+
+    text-align: center;
+    width: auto;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 0px;
+    color: #2D2D2D;
+    height: 20px;
+    //background-color: red;
+    margin-top: -25px;
+    //margin-left: -3px;
+    padding: 0;
+  }
+
+ .sp {
+    display: inline-block;
+    float:none;
+
+
+
+  }
+
+  .middle-box{
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    //display: inline-block;
+
+    width: 100%;
+    top: 0;
+
+
+    margin-bottom: 0px;
+    height:56vw;
+    //max-height:33.3333vh;
+
+
+
+
+    margin-left: 0%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  //
+    //padding-top:80px;
+    //background-color: red;
+  }
+
+  .canvas{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    float:left;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+
+
+
+
+  }
+
+
+  .fp-section{
+    height: 200px !important;
+    vertical-align:top !important;
+  }
+
+
+
+  .mobile-footer{
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+
+  }
+
+
+}

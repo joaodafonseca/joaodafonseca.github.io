@@ -1,0 +1,552 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
+
+body{
+
+  background-color: #F5F5F5;
+
+}
+
+img{
+  width:  100%;
+  display:inline-block;
+  position: relative;
+
+}
+
+
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: auto;
+  align-items: center;
+
+  width: auto;
+  max-width:  1280px;
+  text-align: center;
+  height: auto;
+  //background-color: red;
+
+}
+
+.top-space{
+
+  padding-top: 0vh;
+  width: 100%;
+  height:1.5vh;
+
+}
+
+
+.cover{
+  align-items: center;
+  margin-top: 150px;
+  display:block;
+  position: relative;
+  width:  100%;
+  height:auto;
+  max-height:66.6666vh;
+  margin-bottom: 2vh;
+  background-color: #F5F5F5;;
+  overflow: hidden;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.canvas{
+
+  position: relative;
+  display:inline-block;
+  width:  100%;
+  height:auto;
+  padding-top: 0;
+  margin-bottom: 75px;
+
+  overflow: hidden;
+}
+.videocanvas{
+
+  position: relative;
+  display:inline-block;
+  width:  100%;
+  height:auto;
+
+  //overflow: hidden;
+  margin-bottom: 75px;
+}
+
+/*____________________________________TITLE */
+.title-box{
+
+  padding-top: 80px;
+  text-align: center;
+  padding-bottom: 40px;
+
+  width: 100%;
+  height:auto;
+
+  opacity: 0.95;
+
+
+}
+
+.title-box h1{
+
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #2D2D2D;
+  text-decoration:none;
+  height: auto;
+
+}
+
+.title-box h2{
+
+
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
+  height: auto;
+  font-size: 16px;
+  padding-top: 8px;
+  margin-top: -6px;
+  color: #2D2D2D;
+}
+
+.title-box h6{
+
+
+  width: auto;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 100;
+  font-size: 90px;
+  margin-top: 0px;
+  color: #2D2D2D;
+  height: 20px;
+  //background-color: red;
+  margin-top: -45px;
+  margin-left: -3px;
+  padding: 0;
+}
+
+
+.sp {
+
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-top: 12px;
+
+  width: 40px;
+  height: 2px;
+  background-color: #2D2D2D;
+}
+
+/*____________________________________TEXT */
+
+.text-box{
+
+  text-align: justify;
+  //text-align: left;
+  text-justify: inter-word;
+  margin-left: 60px;
+
+  width: 700px;
+
+  height:auto;
+
+
+  margin-bottom: 45px;
+}
+
+.text-box h1{
+
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #2D2D2D;
+  text-decoration:none;
+}
+
+/*____________________________________TOOLS */
+.tool-box{
+  text-align: left;
+  width: 100%;
+
+  background-color: #F5F5F5;;
+  margin-top: 0px;
+  margin-left: 60px;
+  margin-bottom: 40px;
+  //background-color: red;
+}
+
+.tool-box h3{
+
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  display:inline-block;
+  width:auto;
+}
+
+
+.tool-box ul li{
+  margin-bottom: 5px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  width:auto;
+}
+
+/*____________________________________CREDITS */
+
+
+.credits-box{
+
+  width:100%;
+  text-align: left;
+  margin-left: 60px;
+  background-color: #F5F5F5;;
+  margin-top: 0vh;
+    margin-bottom: 40px;
+//  background-color: red;
+//  margin-left: 60px;
+}
+
+.credits-box h3{
+  margin-top: 0;
+
+  margin-bottom: 5px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  display:inline-block;
+  width:auto;
+
+}
+
+.credits-box h4{
+  margin-top: 0;
+  margin-right: 10px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  display:inline-block;
+  width:auto;
+
+}
+
+.credits-box h1{
+
+  margin-bottom: 5px;
+  display:inline-block;
+  font-family: 'Prompt', sans-serif;
+  font-weight:300;
+  font-size: 18px;
+  color: #2D2D2D;
+  text-decoration:none;
+}
+
+
+.credits-box ul li{
+  //  margin-left: 40px;
+  //list-style-type: disc;
+
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+
+  //text-decoration: none;
+  //background-color: white;
+  width:auto;
+
+}
+
+
+/*____________________________________made onf */
+
+
+.made-onf{
+
+  width:100%;
+  text-align: left;
+  margin-left: 60px;
+  background-color: #F5F5F5;;
+  margin-top: 0vh;
+    margin-bottom: 40px;
+//  background-color: red;
+//  margin-left: 60px;
+}
+
+
+.made-onf h1{
+
+  margin-bottom: 5px;
+  margin-right: 10px;
+  display:inline-block;
+  font-family: 'Prompt', sans-serif;
+  font-weight:300;
+  font-size: 18px;
+  color: #2D2D2D;
+  text-decoration:none;
+}
+
+
+.made-onf a{
+
+  margin-bottom: 5px;
+  display:inline-block;
+  font-family: 'Prompt', sans-serif;
+  font-weight:300;
+  font-size: 18px;
+  color: #2D2D2D;
+  text-decoration:none;
+}
+
+
+.made-onf a:hover{
+
+
+  text-decoration:underline;
+}
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:0.5s;
+  -moz-animation-duration:0.5s;
+  animation-duration:0.5s;
+}
+
+/*for-big-desktop-up*/
+@media (min-width: 1800px) {
+
+}
+
+@media (max-width: 1460px) and (max-width: 1799px) {
+
+}
+
+@media (max-width: 1360px) and (max-width: 1459px) {
+
+}
+
+@media (max-width: 1260px) and (max-width: 1359px) {
+
+}
+
+@media (max-width: 1160px) and (max-width: 1259px) {
+
+}
+
+@media (max-width: 970px) {
+
+}
+
+@media (max-width: 920px) {
+
+
+}
+
+@media (max-width: 860px) {
+
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 1000px) {
+
+  .title-box{
+        padding-top: 100px;
+  }
+  .text-box{
+
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 900px) and (max-width: 1359px) {
+
+
+}
+
+@media (max-width: 768px) and (max-width: 1024px) {
+
+  body {
+
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .container{
+
+    padding: 0px;
+  }
+  .top-space{
+   margin: 0px;
+
+  }
+
+
+  .title-box{
+    padding-top: 50px;
+    padding-bottom: 80px;;
+  }
+
+  .title-box h1{
+
+
+    font-size: 22px;
+
+  }
+
+  .title-box h2{
+    padding-top: 5px;
+    font-size: 16px;
+
+  }
+
+  .title-box h6{
+
+   text-align: center;
+    width: auto;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 0px;
+    color: #2D2D2D;
+    height: 20px;
+    //background-color: red;
+    margin-top: -30px;
+      //margin-left: -3px;
+    padding: 0;
+  }
+  .sp {
+    display: inline-block;
+    float:none;
+
+   }
+
+  .text-box{
+
+    margin:20px 30px 0 30px;
+    width:100%;
+  }
+
+  .text-box h1{
+        font-size: 16px;
+  }
+
+  .cover{
+    margin: 0 0 20px 0;
+  }
+
+  .canvas{
+    margin: 0 0 20px 0;
+
+  }
+  .videocanvas{
+    margin: 0 0 20px 0;
+
+  }
+  .tool-box{
+    margin: 40px 0 30px 30px;
+  }
+  .tool-box h3{
+
+    font-size: 18px;
+  }
+  .tool-box ul li{
+    font-size: 16px;
+
+  }
+
+  .credits-box{
+    margin: 0 0 40px 30px;
+  }
+  .credits-box h3{
+    font-size: 18px;
+  }
+
+  .credits-box h4{
+    font-size: 16px;
+  }
+
+  .credits-box h1{
+    font-size: 16px;
+}
+
+
+.made-onf{
+  margin: 0 0 40px 30px;
+}
+
+}
+
+@media (max-width: 599px) {
+
+  .padding-box{
+    margin: 0 0 20px 0;
+  }
+
+  .text-box{
+    margin-bottom:  20px;
+  }
+
+  .cover{
+    margin: 0 0 5px 0;
+  }
+  .videocanvas{
+    margin: 0 0 10px 0;
+
+  }
+  .canvas{
+    margin: 0 0 5px 0;
+  }
+
+
+}

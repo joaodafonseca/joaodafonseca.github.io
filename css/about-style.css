@@ -1,0 +1,637 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
+
+body{
+
+  background-color: #F5F5F5;
+}
+
+img{
+  width:  100%;
+  display:inline-block;
+  position: relative;
+}
+
+
+
+
+ul{
+  list-style-type: none;
+}
+
+h1{
+
+  //text-align: center;
+  display:inline-block;
+  height: auto;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #2D2D2D;
+  text-decoration:none;
+  display:inline-block;
+  height: auto;
+}
+
+h3{
+
+  display:inline-block;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+  //text-decoration: none;
+  //background-color: white;
+  width:auto;
+  display:inline-block;
+  height: auto;
+}
+
+
+
+h4{
+
+  display:inline-block;
+  height: auto;
+  margin-right: 10px;
+
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+
+
+  //background-color: white;
+  width:auto;
+}
+
+h5{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
+  font-size: 23px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  color: #2D2D2D;
+  //background-color: white;
+  padding-bottom: 6px;
+
+}
+
+
+h5 a{
+  width: 100%;
+  height: auto;
+  color: #2D2D2D;
+  text-decoration: none;
+
+}
+
+h5 a:hover{
+  text-decoration: #9D9D9D;
+}
+
+
+li a{
+
+  color: #2D2D2D;
+  text-decoration: none;
+
+}
+
+.Exp-box li :hover{
+  text-decoration: underline;
+}
+.Exp-box  h1:hover{
+  text-decoration: none;
+}
+
+
+.container{
+
+  //  position: absolute;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-left: 25.8%;
+  width: 75%;
+  height: 100%;
+  //  min-width:  600px;
+  text-align: center;
+  height: auto;
+  //    background-color: red;
+  //  background-color: #F5F5F5;
+
+}
+.top-container{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+
+}
+.bottom-container{
+
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.top-text-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  float:left;
+  height: auto;
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.top-space{
+
+  padding-top: 0vh;
+  width: 100%;
+  height:150px;
+
+}
+
+
+.photo{
+  float: left;
+  display:inline-block;
+
+  position: relative;
+  width:  250px;
+  height: auto;
+
+
+  order:1;
+  overflow: hidden;
+
+}
+
+.canvas{
+  float: left;
+
+  display:inline-block;
+  position: relative;
+  width:  250px;
+  //min-width:  100px;
+  height: auto;
+  overflow: hidden;
+
+  //margin-left: 40px;
+  margin-top: 8px;
+  //order:0;
+
+
+}
+
+
+/*____________________________________Bio */
+
+.bio-box{
+
+  float:left;
+  text-align: justify;
+  text-justify: inter-word;
+  display:inline-block;
+  width: 100%;
+  height:auto;
+  margin-bottom: 20px;
+}
+
+
+
+/*____________________________________TOOLS */
+
+
+.tool-box{
+
+  float: left;
+  text-align: left;
+  text-justify: inter-word;
+  display:inline-block;
+  width: 100%;
+  height:auto;
+  margin-bottom: 50px;
+}
+
+
+
+/*____________________________________CONTACTS */
+
+
+.contacts-box{
+
+  text-align: justify;
+  text-justify: inter-word;
+  display:inline-block;
+  position: relative;
+  width: 100%;
+  height:auto;
+  margin-top: 28px;
+
+
+
+}
+
+.contacts-box ul li{
+
+  //text-align: center;
+  height: auto;
+  margin-left: 0px;
+
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #2D2D2D;
+  //text-decoration:none;
+
+
+}
+
+.contacts-box h4{
+
+  display:inline-block;
+  height: auto;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+
+
+  //background-color: white;
+  width:auto;
+}
+
+.contacts-box h1{
+
+  //text-align: center;
+  display:inline-block;
+  height: auto;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #2D2D2D;
+  text-decoration:none;
+  display:inline-block;
+  height: auto;
+}
+
+
+
+.contacts-box a{
+  width: 100%;
+  height: auto;
+  color: #2D2D2D;
+
+
+}
+
+.contacts-box a:hover{
+  text-decoration: underline;
+
+}
+
+.social-box{
+  float:left;
+  width: 100%;
+  text-align: left;
+  display:inline-block;
+  position: relative;
+//  background-color: red;
+}
+
+
+.social-box a{
+  width: auto;
+  height: auto;
+  color: #2D2D2D;
+
+
+}
+
+
+.social-box h1{
+
+  //text-align: center;
+  display:inline-block;
+  height: auto;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #2D2D2D;
+  text-decoration:none;
+  display:inline-block;
+  height: auto;
+
+
+
+}
+
+.social-box ul li{
+
+  //text-align: center;
+  height: auto;
+  margin-left: 0px;
+  display:inline-block;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #2D2D2D;
+  //text-decoration:none;
+
+
+}
+
+.social-box h4{
+
+  display:inline-block;
+  height: auto;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+
+
+  //background-color: white;
+  width:auto;
+}
+
+
+/*____________________________________Education and experiece */
+
+
+.Edu-box{
+
+  text-align: justify;
+  text-justify: inter-word;
+  //display:inline-block;
+  position: relative;
+  width: 100%;
+  height:auto;
+  margin-bottom: 50px;
+}
+
+.Edu-box ul li{
+  //text-align: center;
+
+  height: auto;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #2D2D2D;
+  //text-decoration:none;
+
+}
+
+.Edu-box a{
+  width: 100%;
+  height: auto;
+  color: #2D2D2D;
+
+
+}
+
+.Exp-box{
+
+  text-align: justify;
+  text-justify: inter-word;
+  //display:inline-block;
+  position: relative;
+  width: 100%;
+  height:auto;
+  margin-bottom: 50px;
+}
+
+.Exp-box{
+
+  text-align: justify;
+  text-justify: inter-word;
+  //display:inline-block;
+  position: relative;
+  width: 100%;
+  height:auto;
+  margin-bottom: 50px;
+}
+
+.Exp-box ul li{
+  //text-align: center;
+
+  height: auto;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #2D2D2D;
+  //text-decoration:none;
+
+}
+
+.Edu-Exp-box a{
+  width: 100%;
+  height: auto;
+  color: #2D2D2D;
+}
+
+.impressum-box{
+  width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  display:inline-block;
+
+  width: 100%;
+  height:auto;
+  background-color: #F5F5F5;;
+  margin-top: 40px;
+
+}
+
+.impressum-box h3{
+  width: 100%;
+  //text-align: center;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+  text-decoration: none;
+  //background-color: white;
+  width:auto;
+}
+
+.impressum-box a{
+  width: 100%;
+  height: auto;
+  color: #2D2D2D;
+  text-decoration: none;
+
+}
+
+.impressum-box :hover{
+  text-decoration: underline;
+}
+
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:0.5s;
+  -moz-animation-duration:0.5s;
+  animation-duration:0.5s;
+}
+
+
+
+
+@media (max-width: 1200px)  {
+  .container{
+
+    margin-left: 60px;
+    width: calc(100% - 90px);
+    margin-right: 30px;
+    //background-color: red;
+
+  }
+
+
+}
+
+@media (max-width: 960px)  {
+  .top-text-container{
+    margin-left: 0px;
+    width: calc(100% - 60px);
+  }
+
+}
+
+@media (max-width: 768px) and (max-width: 1024px) {
+
+  .container{
+
+    margin-left: 30px;
+    width: calc(100% - 60px);
+    margin-right: 30px;
+    //background-color: red;
+
+  }
+  .top-space{
+
+
+    //  height:23vh;
+
+  }
+
+
+  .top-text-container{
+    margin-left: 0px;
+    width: 100%;
+    margin-right: 50%;
+
+  }
+  .canvas{
+
+    margin-bottom: 40px;
+    width:  100%;
+
+  }
+  .photo{
+    width: 210px;
+  }
+  .contacts-box{
+
+
+  }
+  h1 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h3{
+    font-size: 20px;
+
+  }
+
+  .Exp-box h1 {
+    display: block;
+    margin-right: 0px;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .Exp-box h4 {
+
+    display: block;
+    margin-right: 0px;
+    font-size: 16px;
+  }
+
+
+  .Edu-box h1 {
+    display: block;
+    margin-right: 0px;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .Edu-box h4 {
+
+    display: block;
+    margin-right: 0px;
+    font-size: 16px;
+  }
+
+  .title-box{
+    //    padding: 0 0 30px 0;
+  }
+  .cover{
+    //margin: 0 0 75px 0;
+  }
+  .canvas{
+    //margin: 0 0 75px 0;
+  }
+
+}
+
+@media (max-width: 599px) {
+
+  .padding-box{
+    margin: 0 0 50px 0;
+  }
+
+  .cover{
+    margin: 0 0 50px 0;
+  }
+
+  .canvas{
+    margin: 0 0 50px 0;
+  }
+
+
+}

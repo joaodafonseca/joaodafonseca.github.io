@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116125091-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116125091-1');
+  </script>
+
+  <link rel="icon"
+        type="image/png"
+        href="../assets/icons/favicon.png">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="../css/nav-bar-style.css">
+  <link rel="stylesheet" href="../css/playground-style.css">
+
+  <link rel="stylesheet" href="../css/justifiedGallery.min.css" />
+  <link rel="stylesheet" href="../css/swipebox.min.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+  <script src="../js/jquery.swipebox.min.js"></script>
+  <script src="../js/jquery.justifiedGallery.min.js"></script>
+  <script type="text/javascript" src="../js/playgroundLoader.js"></script>
+  <script src="../js/mobileMenu.js"></script>
+
+  <title>João da Fonseca</title>
+
+</head>
+
+<body>
+
+  <div class="nav" id="myTopnav">
+
+    <h5><a href="../index.html">João da Fonseca</a> </h5>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <img  src="../assets/icons/icon.png">
+    </a>
+
+    <div class = "center">
+      <div class = "logo"><h5><a  href="../index.html">João da Fonseca</a> </h5></div>
+      <ul>
+
+        <li><a href="../selectedwork" >selected work</a></li>
+        <li><div id="link-spacer">/</div></li>
+        <li><a class = "current" href="index.html">playground</a></li>
+        <li><div id="link-spacer">/</div></li>
+        <li><a href="../about">about</a></li>
+
+
+
+      </ul>
+    </div>
+
+    <div class = "socialLinks">
+      <a href="https://www.instagram.com/joaofonseca__/">instagram</a>
+      <div id="link-spacer2">/</div>
+      <a href="https://www.messenger.com/t/jftfonseca">messenger</a>
+    </div>
+  </div>
+
+
+
+
+<div class="fade-in">
+<div class="text-box">
+  <h1>A playground for experimentation</h1>
+  <h1>A canvas for lost screenshots and animations</h1>
+</div>
+
+<div class="container" >
+  <div class="grid" >
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+    //
+
+
+    calcVH();
+    //$('body').addClass("fixedPosition");
+  } else {
+    x.className = "nav";
+    calcVH();
+    //$('body').removeClass("fixedPosition");
+  }
+}
+</script>
+  <script src="../js/showHideNavBar.js"></script>
+
+</body>
+
+
+
+
+</html>
