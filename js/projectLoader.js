@@ -86,11 +86,14 @@ function addMainVideo(videoURl){
   var iframe = document.createElement("iframe");
   iframe.setAttribute("src",
   videoURl
-  + "?showinfo=0&controls=0");
+  + "?modestbranding=1&showinfo=0&controls=1");
 
 
 
   iframe.setAttribute("frameborder",0);
+  iframe.setAttribute("modestbranding",1);
+  iframe.setAttribute("showinfo",0);
+
   iframe.setAttribute("webkitallowfullscreen",1);
   iframe.setAttribute("mozallowfullscreen",1);
   iframe.setAttribute("allowfullscreen",1);
@@ -126,6 +129,7 @@ function addSecodaryVideos(secondaryVideos){
 
     iframe.setAttribute("autoplay",1);
     iframe.setAttribute("loop",1);
+    iframe.setAttribute("controls",0);
     iframe.setAttribute("webkitallowfullscreen",1);
     iframe.setAttribute("mozallowfullscreen",1);
     iframe.setAttribute("allowfullscreen",1);
