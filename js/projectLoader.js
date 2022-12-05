@@ -93,6 +93,7 @@ function addMainVideo(videoURl){
   iframe.setAttribute("frameborder",0);
   iframe.setAttribute("modestbranding",1);
   iframe.setAttribute("showinfo",0);
+  iframe.setAttribute("controls",1);
 
   iframe.setAttribute("webkitallowfullscreen",1);
   iframe.setAttribute("mozallowfullscreen",1);
