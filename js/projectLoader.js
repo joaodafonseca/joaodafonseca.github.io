@@ -86,7 +86,7 @@ function addMainVideo(videoURl){
   var iframe = document.createElement("iframe");
   iframe.setAttribute("src",
   videoURl
-  + "?autoplay=0&autohide=1&border=0&wmode=opaque&enablejsapi=1");
+  + "?showinfo=0&controls=0");
 
 
 
@@ -122,9 +122,10 @@ function addSecodaryVideos(secondaryVideos){
     iframe.setAttribute("src",
     secondaryVideos[i]);
 
-
-
     iframe.setAttribute("frameborder",0);
+
+    iframe.setAttribute("autoplay",1);
+    iframe.setAttribute("loop",1);
     iframe.setAttribute("webkitallowfullscreen",1);
     iframe.setAttribute("mozallowfullscreen",1);
     iframe.setAttribute("allowfullscreen",1);
